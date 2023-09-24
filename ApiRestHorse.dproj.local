@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/22 08:57:11.000.692,=C:\Users\ander\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/23 23:14:11.000.656,=C:\Users\ander\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/07 08:46:08.000.785,=C:\Users\ander\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/19 11:20:54.000.110,=C:\Users\ander\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/19 11:21:39.000.750,=C:\Users\ander\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/24 15:10:01.426,C:\Users\ander\Documents\GitHub\Delphi\ApiRestHorse\ApiRestHorse.dproj=C:\Users\ander\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/09/24 15:14:07.101,=C:\Users\ander\Documents\GitHub\Delphi\ApiRestHorse\Unit1.pas</Transaction>
+    <Transaction>2023/09/24 15:14:34.761,C:\Users\ander\Documents\GitHub\Delphi\ApiRestHorse\Controller\Controller.Cliente.pas=C:\Users\ander\Documents\GitHub\Delphi\ApiRestHorse\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
