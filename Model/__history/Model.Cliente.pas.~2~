@@ -1,0 +1,12 @@
+unit Model.Cliente;
+
+interface
+
+type
+  TCliente = class
+  private
+  end;
+
+implementation
+
+end.

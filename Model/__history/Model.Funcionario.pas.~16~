@@ -1,0 +1,74 @@
+unit Model.Funcionario;
+
+interface
+uses
+  System.SysUtils, System.Classes, FIBDatabase, pFIBDatabase, FIBQuery, IniFiles,
+  pFIBQuery,pFIBDataSet;
+type
+  TFuncionario = class
+  private
+      FCOD_Funcionario : Integer;
+      FNome_Funcionario : String;
+      FSetor : String;
+      FStatus : String;
+  public
+      constructor Create;
+      destructor Destroy;
+      property COD_Funcionario : Integer read FCOD_Funcionario write FCOD_Funcionario;
+      property Nome_Funcionario : String read FNome_Funcionario write FNome_Funcionario;
+      property Setor : String read FSetor write FSetor;
+      property Status : String read FStatus write FStatus;
+
+      function ListarFuncionario(order_by : string; out erro: string): TpFIBDataSet;
+      function InserirFuncionario(out erro: string):boolean;
+      function ExcluirFuncionario(out erro: string):boolean;
+
+  end;
+
+implementation
+
+{ TFuncionario }
+
+uses Unt_DM;
+
+constructor TFuncionario.Create;
+begin
+DM := TDM.New;
+  try
+    DM.ConectarDB;
+  except
+    on E:Exception do begin
+      Writeln('Minha Mensagem...' + #13 + E.Message);
+    end;
+  end;
+end;
+
+destructor TFuncionario.Destroy;
+begin
+ if Assigned(DM) then FreeAndNil(DM);
+end;
+
+function TFuncionario.ExcluirFuncionario(out erro: string): boolean;
+begin
+
+end;
+
+function TFuncionario.InserirFuncionario(out erro: string): boolean;
+begin
+
+end;
+
+function TFuncionario.ListarFuncionario(order_by: string;
+  out erro: string): TpFIBDataSet;
+var _QryListar : TpFIBDataSet;
+begin
+   _QryListar := Dm.GetNewQry;
+   Try
+
+
+   Finally
+   FreeAndNil(_QryListar);
+   End;
+end;
+
+end.

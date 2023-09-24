@@ -1,0 +1,20 @@
+  program ApiRestHorse;
+
+  {$APPTYPE CONSOLE}
+
+  {$R *.res}
+
+  uses
+  System.SysUtils,
+  Horse,
+  Horse.Jhonson,
+  Controller.Cliente in 'Controller\Controller.Cliente.pas',
+  Model.Cliente in 'Model\Model.Cliente.pas',
+  Controller.Funcionario in 'Controller\Controller.Funcionario.pas',
+
+
+begin
+    Controller.Cliente.Register;
+
+    THorse.Listen(9000);
+  end.

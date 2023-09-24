@@ -1,0 +1,19 @@
+unit Model.Cliente;
+
+interface
+
+type
+  TCliente = class
+  FCOD_Cliente : Integer;
+  FNome_Cliente : String;
+  FSetor : String;
+  FStatus : String;
+  private
+  constructor Create;
+  destructor Destroy;
+  public
+  end;
+
+implementation
+
+end.
